@@ -14,7 +14,7 @@ func NewHealthHandler() *HealthHandler {
 }
 
 func (h *HealthHandler) IsAlive(ctx echo.Context) error {
-	return ctx.JSON(http.StatusOK, map[string]string{"message": "Okkkkkkk"})
+	return ctx.JSON(http.StatusOK, map[string]string{"message": "Ok_______"})
 }
 
 
