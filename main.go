@@ -4,14 +4,11 @@ import (
 	"fmt"
 
 	"github.com/labstack/echo/v4"
-	
-	"github.com/phramos07/estiam_golang_api_course_finalproject/config"
-	"github.com/phramos07/estiam_golang_api_course_finalproject/handlers"
-	"github.com/phramos07/estiam_golang_api_course_finalproject/repos"
-	"github.com/phramos07/estiam_golang_api_course_finalproject/services"
-	
 
-
+	"github.com/Cristi571/golang_api/config"
+	"github.com/Cristi571/golang_api/handlers"
+	"github.com/Cristi571/golang_api/repos"
+	"github.com/Cristi571/golang_api/services"
 )
 
 func main() {

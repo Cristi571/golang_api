@@ -3,9 +3,8 @@ package services
 import (
 	"context"
 
-	"github.com/phramos07/estiam_golang_api_course_finalproject/repos"
-	"github.com/phramos07/estiam_golang_api_course_finalproject/types"
-	
+	"github.com/Cristi571/golang_api/repos"
+	"github.com/Cristi571/golang_api/types"
 )
 
 type UserService interface {

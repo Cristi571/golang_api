@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
+	"github.com/Cristi571/golang_api/services"
+
 	"github.com/labstack/echo/v4"
-	"github.com/phramos07/estiam_golang_api_course_finalproject/services"
-	
 )
 
 type UserHandler struct {
@@ -39,9 +39,9 @@ func (h *UserHandler) Get(ctx echo.Context) error {
 
 /*IMPLEMENT THIS ENDPOINT*/
 func (h *UserHandler) Post(ctx echo.Context) error {
-	id := ctx.Param("id")
+	// id := ctx.Param("id")
 
-	user, err := h.userService.GetUser(ctx.Request().Context(), id)
+	// user, err := h.userService.GetUser(ctx.Request().Context(), id)
 
 	return nil
 }

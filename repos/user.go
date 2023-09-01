@@ -4,8 +4,9 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/Cristi571/golang_api/types"
+
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/phramos07/estiam_golang_api_course_finalproject/types"
 )
 
 type UserRepository interface {
