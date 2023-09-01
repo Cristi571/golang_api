@@ -11,7 +11,7 @@ type UserService interface {
 	CreateNewUser(context.Context, *types.User) error
 	GetUser(context.Context, string) (*types.User, error)
 	// implemented
-	// PostUser(context.Context, string) (*types.User, error)
+	PostUser(context.Context, string) (*types.User, error)
 }
 
 type userServiceImpl struct {
